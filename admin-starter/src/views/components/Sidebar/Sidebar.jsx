@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Links from "../../pages/utils/Links";
 import Logo from "../Logo";
+import { FaX } from "react-icons/fa6";
+
 import { FaRegDotCircle, FaRegCircle } from "react-icons/fa";
 import { useDashboardContext } from "../../pages/layouts/DashboardLayout";
 const Sidebar = () => {
@@ -64,6 +66,7 @@ const Sidebar = () => {
               className="nav-link modern-nav-toggle pe-0"
               data-bs-toggle="collapse"
             >
+              <FaX className="feather feather-x d-block d-xl-none text-primary toggle-icon font-medium-4" />
               <FaRegCircle className="d-none d-xl-block collapse-toggle-icon font-medium-4 text-primary" />
             </a>
           </li>

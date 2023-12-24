@@ -39,8 +39,8 @@ const Links = [
   },
   //   { text: "Stats", path: "stats", icon: <IoBarChartSharp /> },
   {
-    text: "Profile",
-    path: "profile",
+    text: "Users",
+    path: "users",
     icon: <ImProfile />,
     status: false,
     subNav: [],

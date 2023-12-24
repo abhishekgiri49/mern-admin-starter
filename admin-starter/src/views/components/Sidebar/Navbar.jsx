@@ -1,5 +1,6 @@
 import Wrapper from "../../../assets/wrappers/Navbar";
 import Logo from "../Logo";
+import { FaAlignJustify } from "react-icons/fa";
 import avatar from "../../../assets/images/avatar.svg";
 import { useDashboardContext } from "../../pages/layouts/DashboardLayout";
 const Navbar = () => {
@@ -12,7 +13,7 @@ const Navbar = () => {
           <ul className="nav navbar-nav d-xl-none">
             <li className="nav-item">
               <a className="nav-link menu-toggle" href="#">
-                <i className="ficon" data-feather="menu"></i>
+                <FaAlignJustify />
               </a>
             </li>
           </ul>
